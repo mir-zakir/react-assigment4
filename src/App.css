@@ -1,0 +1,38 @@
+.job-brief:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.App {
+  width: 90vw;
+
+  margin: auto;
+  padding-top: 20px;
+}
+
+.ui.secondary.pointing.menu {
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: 2px solid #c9bee0;
+}
+.ui.secondary.pointing.menu .active.item {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom-width: 3px;
+  border-color: #2557a7;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.95);
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+  border-color: #2557a7;
+  color: rgba(0, 0, 0, 0.95);
+}
+.ui.styled.accordion,
+.ui.styled.accordion .accordion {
+  width: 100%;
+}
+.ui.styled.accordion .active.title {
+  background: #b3cae0;
+  color: rgba(0, 0, 0, 0.95);
+}
